@@ -2,6 +2,10 @@ Pitch for my diabetes prediction app
 ========================================================
 author: rhdatascience
 date: `r date()`
+Notice that the date above was calculated using 
+```{r, eval=FALSE, echo=TRUE}
+ date()
+```
 
 The app
 ========================================================
