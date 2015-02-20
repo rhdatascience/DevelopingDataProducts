@@ -1,0 +1,40 @@
+Pitch for my diabetes prediction app
+========================================================
+author: rhdatascience
+date: `r date()`
+
+The app
+========================================================
+The app predicts your diabetes risk base on
+
+- your age
+- your glucose level
+
+
+Input/Output
+========================================================
+
+My app has a dateInput and numericInput widgets that are used to enter your age and your glucose level.
+
+1. Takes the age of the user
+2. Takes the glucose level of the user
+3. Returns a diabetes prediction.
+
+Slide With Code
+========================================================
+The diabetes risk is calculated using the formula.
+
+The value returned is unfortunately not interpretable since I just made it up :).
+
+```{r, eval=FALSE, echo=TRUE}
+risk <- function(glucose,birthdate) {
+ glucose * ageInDays(birthdate) / 1000
+}
+```
+
+References
+========================================================
+
+- [link for a real prediction score](http://www.ncbi.nlm.nih.gov/pubmed/12610029)
+
+
