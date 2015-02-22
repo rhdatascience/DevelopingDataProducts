@@ -1,4 +1,4 @@
-Pitch for my diabetes prediction app
+Diabetes diagnostics anywhere
 ========================================================
 author: rhdatascience
 date: `r date()`
@@ -7,24 +7,29 @@ Notice that the date above was calculated using
  date()
 ```
 
-The app
+The easiest way to get a diabetes prediction
 ========================================================
-The app predicts your diabetes risk base on
+Access this highly sophisticates diabetes prediction algorithm from anywhere.
 
-- your age
-- your glucose level
+Just open up your browser [here](https://rhdatascience.shinyapps.io/DevelopingDataProducts/) from your
+- smartphone
+- tablet
+- computer
+
+and off you go.
 
 
-Input/Output
+Input/output
 ========================================================
 
-My app has a dateInput and numericInput widgets that are used to enter your age and your glucose level.
+You only need two values, enter your date of birth and your glucose level.
 
-1. Takes the age of the user
-2. Takes the glucose level of the user
-3. Returns a diabetes prediction.
+The app will return you the diabetes risk.
 
-Slide With Code
+As a doctor, the ease of access and immediate result will delight your patients.
+
+
+Formula
 ========================================================
 The diabetes risk is calculated using the formula.
 
